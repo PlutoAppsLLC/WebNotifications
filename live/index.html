@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "main.css" />
+   
+ <meta charset="UTF-8">
+<title>Push Notifications Auth</title>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "f238099a-eee0-4e31-ba15-edbdf73babb8",
+      autoRegister: false, /* Set to true to automatically prompt visitors */
+      httpPermissionRequest: {
+        enable: true
+      },
+      notifyButton: {
+          enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
+</head>
+
+<div class="center">
+<h1>Hey There!</h1>
+<h3>Just Click "Allow Notifications"</h3>
+</div>
+
+
+</html>

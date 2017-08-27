@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+.center {
+    text-align: center;
+ font-family: 'Oswald', sans-serif;
+	
+	background: linear-gradient(236deg, #00dbff, #6b00ff, #c500ff, #00fdff);
+background-size: 800% 800%;
+
+-webkit-animation: center 49s ease infinite;
+-moz-animation: center 49s ease infinite;
+-o-animation: center 49s ease infinite;
+animation: center 49s ease infinite;
+
+@-webkit-keyframes center {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+@-moz-keyframes center {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+@-o-keyframes center {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+@keyframes center { 
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+	
+	
+	position: relative;
+    /* Chrome, Safari*/
+    -webkit-animation-name: ease-inAnimation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    
+	
+}
+
