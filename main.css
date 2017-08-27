@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.center {
+    text-align: center;
+ font-family: 'Oswald', sans-serif;
+	position: relative;
+    /* Chrome, Safari*/
+    -webkit-animation-name: ease-inAnimation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    
+	
+}
+
+
+
