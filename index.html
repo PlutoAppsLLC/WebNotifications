@@ -1,60 +1,33 @@
-<strong><!DOCTYPE html>
-<html lang = "en-US">
- <head>
- <meta charset = "UTF-8">
- <title>Avon Grove School District</title>
- 
-  <link rel = "stylesheet"
+<!doctype html>
+<html>
+
+<head>
+<link rel = "stylesheet"
    type = "text/css"
    href = "main.css" />
    
-   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-   
- </head>
- <body>
- 
- 
- <div class="center">
-  <h1 style="color:lightcoral;">District Office</h1>
-  <h3 style="color: cornflowerblue">375 South Jennersville Road
-West Grove, PA 19390</h3>
- <h3><a href="tel://6108692441">Phone: 610.869.2441</a></h3>
-  <br>
-  <hr>
-  
-  
- <div class="center">
-  <h1 style="color:lightcoral;">Avon Grove High School</h1>
-  <h3 style="color: cornflowerblue">257 State Road
-West Grove, PA 19390</h3>
- <h3><a href="tel://6108692446">Phone: 610.869.2446</a></h3>
-  <br>
-  <hr>
-  
-   <div class="center">
-  <h1 style="color:lightcoral;">Fred S. Engle Middle School</h1>
-  <h3 style="color: cornflowerblue">107 School House Road
-West Grove, PA 19390</h3>
- <h3><a href="tel://6108693022">Phone: 610.869.3022</a></h3>
-  <br>
-  <hr>
-  
-  
-  <div class="center">
-  <h1 style="color:lightcoral;">Avon Grove Intermediate School</h1>
-  <h3 style="color: cornflowerblue">395 South Jennersville Road
-West Grove, PA 19390</h3>
- <h3><a href="tel://6108692010">Phone: 610.869.2010</a></h3>
-  <br>
-  <hr>
-  
-  <div class="center">
-  <h1 style="color:lightcoral;">Avon Grove Intermediate School</h1>
-  <h3 style="color: cornflowerblue">383 South Jennersville Road
-West Grove, PA 19390</h3>
- <h3><a href="tel://6108699803">Phone: 610.869.9803</a></h3>
-  
-  
+ <meta charset="UTF-8">
+<title>Push Notifications Auth</title>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "f238099a-eee0-4e31-ba15-edbdf73babb8",
+      autoRegister: false, /* Set to true to automatically prompt visitors */
+      httpPermissionRequest: {
+        enable: true
+      },
+      notifyButton: {
+          enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
+</head>
+
+<div class="center">
+<h1>Hey There!</h1>
+<h3>Just Click "Allow Notifications"</h3>
 </div>
- </body>
-</html></strong>
+
+
+</html>
